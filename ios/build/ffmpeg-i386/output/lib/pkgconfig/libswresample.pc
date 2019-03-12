@@ -1,0 +1,14 @@
+prefix=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-i386/output
+exec_prefix=${prefix}
+libdir=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-i386/output/lib
+includedir=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-i386/output/include
+
+Name: libswresample
+Description: FFmpeg audio resampling library
+Version: 2.9.100
+Requires: libavutil >= 55.78.100
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lswresample -lm
+Libs.private: 
+Cflags: -I${includedir}
