@@ -121,8 +121,8 @@ extern "C" {
 
 #if !(defined(VMS) || defined(__VMS)) /* VMS uses logical names instead */
 #if defined(HEADER_CRYPTLIB_H) && !defined(OPENSSLDIR)
-#define ENGINESDIR "/Users/admin/ijkplayer_2019/ijkplayer/ios/build/openssl-i386/output/lib/engines"
-#define OPENSSLDIR "/Users/admin/ijkplayer_2019/ijkplayer/ios/build/openssl-i386/output"
+#define ENGINESDIR "/Users/admin/ijkplayerMod/ios/build/openssl-i386/output/lib/engines"
+#define OPENSSLDIR "/Users/admin/ijkplayerMod/ios/build/openssl-i386/output"
 #endif
 #endif
 

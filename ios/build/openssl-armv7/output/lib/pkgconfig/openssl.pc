@@ -1,4 +1,4 @@
-prefix=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/openssl-armv7/output
+prefix=/Users/admin/ijkplayerMod/ios/build/openssl-armv7/output
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include

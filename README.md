@@ -1,3 +1,19 @@
+# ijkplayerMod
+
+This project fork from ijkplayer, with some modified for RTMP delay problem.
+
+### Build iOS
+
+cd ijkplayerMod
+./init-ios-openssl.h
+./init-ios.h
+
+cd ios
+./compile-openssl.sh clean
+./compile-openssl.sh all
+./compile-ffmpeg.sh clean
+./compile-ffmpeg.sh all
+
 # ijkplayer
 
  Platform | Build Status
@@ -227,12 +243,6 @@ cd ios
 #         ... (Maybe something else, if you get any link error)
 # 
 ```
-
-
-### Support (支持) ###
-- Please do not send e-mail to me. Public technical discussion on github is preferred.
-- 请尽量在 github 上公开讨论[技术问题](https://github.com/bilibili/ijkplayer/issues)，不要以邮件方式私下询问，恕不一一回复。
-
 
 ### License
 

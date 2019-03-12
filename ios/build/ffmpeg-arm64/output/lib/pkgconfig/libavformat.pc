@@ -1,7 +1,7 @@
-prefix=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-arm64/output
+prefix=/Users/admin/ijkplayerMod/ios/build/ffmpeg-arm64/output
 exec_prefix=${prefix}
-libdir=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-arm64/output/lib
-includedir=/Users/admin/ijkplayer_2019/ijkplayer/ios/build/ffmpeg-arm64/output/include
+libdir=/Users/admin/ijkplayerMod/ios/build/ffmpeg-arm64/output/lib
+includedir=/Users/admin/ijkplayerMod/ios/build/ffmpeg-arm64/output/include
 
 Name: libavformat
 Description: FFmpeg container format library

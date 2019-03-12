@@ -3,8 +3,8 @@
 # Perl c_rehash script, scan all files in a directory
 # and add symbolic links to their hash values.
 
-my $dir = "/Users/admin/ijkplayer_2019/ijkplayer/ios/build/openssl-armv7/output";
-my $prefix = "/Users/admin/ijkplayer_2019/ijkplayer/ios/build/openssl-armv7/output";
+my $dir = "/Users/admin/ijkplayerMod/ios/build/openssl-armv7/output";
+my $prefix = "/Users/admin/ijkplayerMod/ios/build/openssl-armv7/output";
 
 my $openssl = $ENV{OPENSSL} || "openssl";
 my $pwd;
