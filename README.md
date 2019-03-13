@@ -4,15 +4,19 @@ This project fork from ijkplayer, with some modified for RTMP delay problem.
 
 ### Build iOS
 
+```
 cd ijkplayerMod
 ./init-ios-openssl.h
 ./init-ios.h
+```
 
+```
 cd ios
 ./compile-openssl.sh clean
 ./compile-openssl.sh all
 ./compile-ffmpeg.sh clean
 ./compile-ffmpeg.sh all
+```
 
 # ijkplayer
 
